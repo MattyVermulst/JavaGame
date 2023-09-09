@@ -87,3 +87,12 @@ const gameOver = () => {
     game.classList.add('game-over');
     outcome.innerText = playerScore > computerScore ? 'You Win!' : 'You Lose :(';
 };
+const resetGame = () => {
+    playerScore = 0;
+    computerScore = 0;
+    scoreboard.innerText = '0 - 0';
+    outcome.innerText = '';
+    game.classList.remove('game-over');
+};
+
+initGame();

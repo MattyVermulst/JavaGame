@@ -7,3 +7,18 @@ body {
     padding: 0;
     height: 100%;
 }
+.game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    gap: 3rem;
+    height: 400px;
+}
+
+.play-area {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}

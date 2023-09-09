@@ -22,3 +22,24 @@ body {
     align-items: center;
     gap: 1rem;
 }
+options {
+    display: flex;
+    gap: 2rem;
+}
+
+.options button,
+#reset {
+    border: none;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.game.game-over .options,
+.game.game-over .play-area {
+    display: none;
+}
+
+.game:not(.game-over) #reset {
+    display: none;
+}

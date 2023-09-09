@@ -1,39 +1,40 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Meditation Nation
 
-Welcome,
+Meditation Nation is a project with the aim to allow people with an intrest in meditation to explore differnt means to meditate.
+Meditation nation allows users to gain info into a breif history of meditation and allowing them to find more information in a user friendly and responsive site.
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Features
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+![ dropdown ] (<https://github.com/MattyVermulst/Meditation/blob/9905d2fd8bd187e27cc15383e39017c32dc9ac46/assets/images/responsive.png>)
+This website contains 4 pages.
+The first a simple home page with a background and a navagation bar that is featured across all pages, this navagation bar allows the user to click to any of the pages they would like weather its the home,History,meditation or contact page, and is also responsive when using mobile and other smaller media screens.
 
-## Codeanywhere Reminders
+**Meditation**
+This page shows 3 photos that are interactive giving a breif description of 3 differnt types of meditation. Helping the user to find one that would best suit them
+![Meditation ] (<https://github.com/MattyVermulst/Meditation/blob/9905d2fd8bd187e27cc15383e39017c32dc9ac46/assets/images/meditationpage.png>)
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+**History**
+This page goes over where meditation started and how its come to western society. Giving the user information about meditation as a subject and allowing them to learn intresting details with an easy to read formate.
+! [ History ] (<https://github.com/MattyVermulst/Meditation/blob/9905d2fd8bd187e27cc15383e39017c32dc9ac46/assets/images/historypage.png>)
+**contact**
+This page rounds out the project with an easy to read contact page were the user could ask any additional information on this page.
 
-`python3 -m http.server`
+## Testing
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+The site has been tested on mutiple browers (firefox,google chrome, microsoft edge,) along with mobile phones to ensure the navagation bar turns into a drop down menu when the site is in operation on smaller screen sizes ensuring anyone could access and use the site to a high standard. testing different animations on the header of the pages to give a more user friendly expernice. the pictures where picked to go with the theam of the site and in some cases to further show information. inital bugs where the drop down menu staying on all sizes of media being used but was promply fixed.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+### Validator Testing
 
-`http_server`
+- Html
+- there where inital errors when validating Html however they wehre correct. [W3C validator] (<https://validator.w3.org/nu/#textarea>)
+- css
+- no errors where returned when passing through the officle [{jigsaw} validator](https://jigsaw.w3.org/css-validator/validator#css)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### unfixed bugs
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+when using xl ultra wide monitors background imgages repeat.
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## credit media and content
 
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
+information used in the history page was taken from (<https://mindworks.org/blog/history-origins-of-meditation/>)
+media was taken from open source site (<https://pixabay.com/>)

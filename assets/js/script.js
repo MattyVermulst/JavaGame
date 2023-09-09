@@ -9,3 +9,13 @@ const outcome = document.getElementById('outcome');
 const playerResult = document.getElementById('player-result');
 const computerResult = document.getElementById('computer-result');
 const reset = document.getElementById('reset');
+
+const initGame = () => {
+    buttons.forEach(button => {
+        button.addEventListener('click', (e) => {
+            playRound(e.target.innerText);
+        });
+
+        reset.addEventListener('click', () => resetGame());
+    });
+};

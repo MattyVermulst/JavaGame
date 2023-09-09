@@ -19,3 +19,10 @@ const initGame = () => {
         reset.addEventListener('click', () => resetGame());
     });
 };
+
+const playRound = (playerChoice) => {
+    let randomChoice = choices[Math.floor(Math.random() * choices.length)];
+    playerResult.innerText = playerChoice;
+    computerResult.innerText = randomChoice;
+    compareResults(playerChoice, randomChoice);
+};

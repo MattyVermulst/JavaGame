@@ -26,3 +26,64 @@ const playRound = (playerChoice) => {
     computerResult.innerText = randomChoice;
     compareResults(playerChoice, randomChoice);
 };
+
+const compareResults = (player, computer) => {
+    if (player === computer) {
+        outputResult('Tie');
+    } else if (player === 'Rock') {
+        if (computer === 'Lizard' || computer === 'Scissors') {
+            outputResult('Won');
+        } else if (computer === 'Paper' || computer === 'Spock') {
+            outputResult('Lost');
+        }
+    } else if (player === 'Paper') {
+        if (computer === 'Rock' || computer === 'Spock') {
+            outputResult('Won');
+        } else if (computer === 'Scissors' || computer === 'Lizard') {
+            outputResult('Lost');
+        }
+    } else if (player === 'Scissors') {
+        if (computer === 'Paper' || computer === 'Lizard') {
+            outputResult('Won');
+        } else if (computer === 'Spock' || computer === 'Rock') {
+            outputResult('Lost');
+        }
+    } else if (player === 'Lizard') {
+        if (computer === 'Spock' || computer === 'Paper') {
+            outputResult('Won');
+        } else if (computer === 'Rock' || computer === 'Scissors') {
+            outputResult('Lost');
+        }
+    } else if (player === 'Spock') {
+        if (computer === 'Rock' || computer === 'Scissors') {
+            outputResult('Won');
+        } else if (computer === 'Paper' || computer === 'Lizard') {
+            outputResult('Lost');
+        }
+    } else {
+        outputResult('Tie');
+    }
+};
+const outputResult = (result) => {
+    outcome.innerText = result;
+
+    switch (result) {
+        case 'Won':
+            playerScore++;
+            break;
+        case 'Lost':
+            computerScore++;
+            break;
+    }
+
+    scoreboard.innerText = playerScore + ' - ' + computerScore;
+
+    if (playerScore === 3 || computerScore === 3) {
+        gameOver();
+    }
+};
+
+const gameOver = () => {
+    game.classList.add('game-over');
+    outcome.innerText = playerScore > computerScore ? 'You Win!' : 'You Lose :(';
+};

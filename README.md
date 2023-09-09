@@ -1,27 +1,16 @@
-# Meditation Nation
+# Rock Paper Scissors Lizard Spock
 
-Meditation Nation is a project with the aim to allow people with an intrest in meditation to explore differnt means to meditate.
-Meditation nation allows users to gain info into a breif history of meditation and allowing them to find more information in a user friendly and responsive site.
+Rock Paper Scissors Lizard Spock is a project with the aim to allow users to have fun playing a 3 round game of Rock Paper Scissors Lizard Spock vs the computer
 
 ## Features
 
-![ dropdown ] (<https://github.com/MattyVermulst/Meditation/blob/9905d2fd8bd187e27cc15383e39017c32dc9ac46/assets/images/responsive.png>)
-This website contains 4 pages.
-The first a simple home page with a background and a navagation bar that is featured across all pages, this navagation bar allows the user to click to any of the pages they would like weather its the home,History,meditation or contact page, and is also responsive when using mobile and other smaller media screens.
 
-**Meditation**
-This page shows 3 photos that are interactive giving a breif description of 3 differnt types of meditation. Helping the user to find one that would best suit them
-![Meditation ] (<https://github.com/MattyVermulst/Meditation/blob/9905d2fd8bd187e27cc15383e39017c32dc9ac46/assets/images/meditationpage.png>)
+This project contains one page with muliple choice for the user to make and a randomly selected choice on the computer side. the users aim is to beat the computer and be the first to win 3 games.There are 5 options in which the user can pick from all having two items in which they lose and two in which they can tie in the event of a time no points are awarded. another feature is when a winner has been decided the page changes to indicate such with a you win or you lose appearing on the screen and once this has appeared on the screen an option to reset to play again comes up
 
-**History**
-This page goes over where meditation started and how its come to western society. Giving the user information about meditation as a subject and allowing them to learn intresting details with an easy to read formate.
-! [ History ] (<https://github.com/MattyVermulst/Meditation/blob/9905d2fd8bd187e27cc15383e39017c32dc9ac46/assets/images/historypage.png>)
-**contact**
-This page rounds out the project with an easy to read contact page were the user could ask any additional information on this page.
+
 
 ## Testing
-
-The site has been tested on mutiple browers (firefox,google chrome, microsoft edge,) along with mobile phones to ensure the navagation bar turns into a drop down menu when the site is in operation on smaller screen sizes ensuring anyone could access and use the site to a high standard. testing different animations on the header of the pages to give a more user friendly expernice. the pictures where picked to go with the theam of the site and in some cases to further show information. inital bugs where the drop down menu staying on all sizes of media being used but was promply fixed.
+the game works on any browers that I have tested it on (firefox,google chrome, microsoft edge,) along with mobile phones. Its fun simple but gets the job done.
 
 ### Validator Testing
 
@@ -32,7 +21,7 @@ The site has been tested on mutiple browers (firefox,google chrome, microsoft ed
 
 ### unfixed bugs
 
-when using xl ultra wide monitors background imgages repeat.
+through my testing I have not found any bugs. 
 
 ## credit media and content
 

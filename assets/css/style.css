@@ -7,6 +7,7 @@ body {
     padding: 0;
     height: 100%;
 }
+
 .game {
     display: flex;
     flex-direction: column;
@@ -22,6 +23,7 @@ body {
     align-items: center;
     gap: 1rem;
 }
+
 options {
     display: flex;
     gap: 2rem;
